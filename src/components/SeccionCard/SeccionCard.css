@@ -1,0 +1,24 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 10px ;
+    height: 300px;
+    box-shadow: -11px 9px 5px -6px rgba(130,167,240,1);
+    border-radius: 8px;
+}
+.card img{
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+}
+.card button{
+    width: 50%;
+    align-self: flex-end;
+    margin: 5px;
+}
+h3, p  {
+    margin-left: 5px;
+}

@@ -5,11 +5,11 @@ const Header = ()=>{
     return <div className="header">
         <div className="navbar">
             <ul className="menu">
-                <li><BotonRed nombre = 'sec 1'></BotonRed></li>
-                <li><BotonRed nombre = 'sec 2'></BotonRed></li>
-                <li><BotonRed nombre = 'sec 3'></BotonRed></li>
-                <li><BotonRed nombre = 'sec 4'></BotonRed></li>
-                <li><BotonRed nombre = 'sec 5'></BotonRed></li>
+                <li><BotonRed nombre = 'Idiomas'></BotonRed></li>
+                <li><BotonRed nombre = 'Experiencias'></BotonRed></li>
+                <li><BotonRed nombre = 'Proyectos'></BotonRed></li>
+                <li><BotonRed nombre = 'Estudios'></BotonRed></li>
+                <li><BotonRed nombre = 'Haabilides'></BotonRed></li>
             </ul>
         </div>
 

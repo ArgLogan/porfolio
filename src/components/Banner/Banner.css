@@ -27,5 +27,63 @@
     border-radius: 50%;
     border: solid 2px white;
 }
+.about{
+    position: absolute;
+    top: 120px;
+    left: 195px;
+}
+.about h1{
+    color: aliceblue;
+    font-size: 36px;
+    font-weight: 50px;
+}
+.redsocial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+}
+.icon{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    background-color: #c2d2d3;
+    color: #01394e;
+    border-radius: 50%;
+    font-size: 22px;
+    margin-right: 0.7rem;
+}
+.redup{
+    top:60px;
+    right: 150px;
+}
+.reddown{
+    top:220px;
+    right: 150px;
+}
+.redright{
+    top:140px;
+    right: 50px;
+}
+.redleft{
+    top:140px;
+    right: 250px;
+}
+.redcent{
+    top:140px;
+    right: 150px;
+}
+.redsocial:hover{
+    transform: scale(1.5);
+    
+}
+.icon:hover{
+    color: red;
+}
 
 

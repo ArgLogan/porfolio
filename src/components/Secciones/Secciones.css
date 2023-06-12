@@ -1,0 +1,10 @@
+.contiene{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+    width: 100%;
+}
